@@ -16,6 +16,9 @@ llc -filetype=obj -mtriple=arm-linux-gnueabi (bc file).bc
 ```
 
 `wlc_hybrid.o_i386` is original blob extracted from debian dkms package
+
 `wlc_hybrid.o_i386.bc` is bitcode output from retdec
+
 `wlc_hybrid.o_i386.o_armel` is binary recompiled using llc for armel
+
 `wlc_hybrid.o_i386.o_armhf` is binary recompiled for armhf
